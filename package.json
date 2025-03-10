@@ -5,7 +5,7 @@
   "description": "Template repository of Agentica for NodeJS WebSocket Server",
   "scripts": {
     "build": "rimraf lib && tsc",
-    "prepare": "ts-patch install && ts-node ",
+    "prepare": "ts-patch install && ts-node build/env.ts",
     "start": "node lib"
   },
   "keywords": [
@@ -17,8 +17,8 @@
   "author": "Wrtn Technologies",
   "license": "ISC",
   "dependencies": {
-    "@agentica/core": "^0.10.4",
-    "@agentica/rpc": "^0.10.4",
+    "@agentica/core": "^0.11.1",
+    "@agentica/rpc": "^0.11.1",
     "@samchon/openapi": "^3.0.0",
     "dotenv": "^16.4.7",
     "dotenv-expand": "^12.0.1",

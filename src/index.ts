@@ -1,4 +1,4 @@
-import { Agentica, IAgenticaPrompt } from "@agentica/core";
+import { Agentica, IAgenticaPromptJson } from "@agentica/core";
 import {
   AgenticaRpcService,
   IAgenticaRpcListener,
@@ -13,7 +13,7 @@ import { BbsArticleService } from "./services/BbsArticleService";
 
 const getPromptHistories = async (
   id: string,
-): Promise<Primitive<IAgenticaPrompt<"chatgpt">>[]> => {
+): Promise<Primitive<IAgenticaPromptJson>[]> => {
   // GET PROMPT HISTORIES FROM DATABASE
   id;
   return [];
@@ -26,7 +26,7 @@ const main = async (): Promise<void> => {
   const server: WebSocketServer<
     null,
     IAgenticaRpcService<"chatgpt">,
-    IAgenticaRpcListener<"chatgpt">
+    IAgenticaRpcListener
   > = new WebSocketServer();
   await server.open(Number(SGlobal.env.PORT), async (acceptor) => {
     const url: URL = new URL(`http://localhost${acceptor.path}`);
