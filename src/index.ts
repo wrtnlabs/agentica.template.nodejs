@@ -10,6 +10,8 @@ import typia, { Primitive } from "typia";
 
 import { SGlobal } from "./SGlobal";
 import { BbsArticleService } from "./services/BbsArticleService";
+/// INSERT IMPORT HERE
+
 
 const getPromptHistories = async (
   id: string,
@@ -43,6 +45,7 @@ const main = async (): Promise<void> => {
           application: typia.llm.application<BbsArticleService, "chatgpt">(),
           execute: new BbsArticleService(),
         },
+        /// INSERT CONTROLLER HERE
       ],
       histories:
         // check {id} parameter
