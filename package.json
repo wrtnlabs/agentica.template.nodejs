@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@agentica/template-nodejs",
+  "name": "agentica-template-nodejs",
   "version": "0.1.0",
   "description": "Template repository of Agentica for NodeJS WebSocket Server",
   "scripts": {
