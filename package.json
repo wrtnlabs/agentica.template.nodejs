@@ -19,7 +19,7 @@
   "dependencies": {
     "@agentica/core": "^0.15.0",
     "@agentica/rpc": "^0.15.0",
-    "@samchon/openapi": "^3.0.0",
+    "@samchon/openapi": "^4.0.0",
     "dotenv": "^16.4.7",
     "dotenv-expand": "^12.0.1",
     "openai": "^4.86.2",
