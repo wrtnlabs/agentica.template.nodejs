@@ -1,4 +1,4 @@
-import { Agentica, IAgenticaPromptJson } from "@agentica/core";
+import { Agentica, IAgenticaHistoryJson } from "@agentica/core";
 import {
   AgenticaRpcService,
   IAgenticaRpcListener,
@@ -10,12 +10,12 @@ import typia, { Primitive } from "typia";
 
 import { SGlobal } from "./SGlobal";
 import { BbsArticleService } from "./services/BbsArticleService";
-/// INSERT IMPORT HERE
 
+/// INSERT IMPORT HERE
 
 const getPromptHistories = async (
   id: string,
-): Promise<Primitive<IAgenticaPromptJson>[]> => {
+): Promise<Primitive<IAgenticaHistoryJson>[]> => {
   // GET PROMPT HISTORIES FROM DATABASE
   id;
   return [];
