@@ -19,6 +19,7 @@ updates:
       - dependency-name: "tstl"
       - dependency-name: "typia"
       - dependency-name: "typescript"
+      - dependency-name: "ts-patch"
 
 
     groups:
