@@ -17,8 +17,8 @@
   "author": "Wrtn Technologies",
   "license": "ISC",
   "dependencies": {
-    "@agentica/core": "^0.29.1",
-    "@agentica/rpc": "^0.29.1",
+    "@agentica/core": "^0.29.3",
+    "@agentica/rpc": "^0.29.3",
     "@samchon/openapi": "^4.3.3",
     "dotenv": "^16.4.7",
     "dotenv-expand": "^12.0.1",
