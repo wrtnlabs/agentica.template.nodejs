@@ -17,15 +17,15 @@
   "author": "Wrtn Technologies",
   "license": "ISC",
   "dependencies": {
-    "@agentica/core": "^0.31.0",
-    "@agentica/rpc": "^0.31.0",
+    "@agentica/core": "^0.31.1",
+    "@agentica/rpc": "^0.31.1",
     "@samchon/openapi": "^4.7.1",
     "dotenv": "^16.4.7",
     "dotenv-expand": "^12.0.1",
-    "openai": "^5.12.1",
+    "openai": "^5.12.2",
     "tgrid": "^1.2.0",
     "tstl": "^3.0.0",
-    "typia": "^9.7.0",
+    "typia": "^9.7.1",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
