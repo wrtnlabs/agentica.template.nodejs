@@ -25,7 +25,7 @@
     "openai": "^5.16.0",
     "tgrid": "^1.2.0",
     "tstl": "^3.0.0",
-    "typia": "^9.7.1",
+    "typia": "^9.7.2",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
